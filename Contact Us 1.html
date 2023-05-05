@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0112)file:///C:/Users/USER/Downloads/Hospital-Management-System-master/Hospital-Management-System-master/contact.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Contact Us</title>
+<link rel="shortcut icon" type="image/x-icon" href="file:///C:/Users/USER/Downloads/Hospital-Management-System-master/Hospital-Management-System-master/images/favicon.png">
+<link href="file://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="./Contact Us 1_files/font-awesome.min.css">
+<link href="./Contact Us 1_files/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./Contact Us 1_files/contact.css">
+<script src="file://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="file://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    function alphaOnly(event) {
+  var key = event.keyCode;
+  return ((key >= 65 && key <= 90) || key == 8 || key == 32);
+};
+  </script>
+
+<style>
+    body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+  .contact-form {
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+
+      <a class="navbar-brand js-scroll-trigger" href="file:///C:/Users/USER/Downloads/Hospital-Management-System-master/Hospital-Management-System-master/index.php" style="margin-top: 10px;margin-left:-65px;font-family: &#39;IBM Plex Sans&#39;, sans-serif;"><h4><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp; MUKHERJEE HOSPITALS</h4></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" style="margin-right: 40px;">
+            <a class="nav-link js-scroll-trigger" href="file:///C:/Users/USER/Downloads/Hospital-Management-System-master/Hospital-Management-System-master/index.php" style="color: greenyellow;font-family: &#39;IBM Plex Sans&#39;, sans-serif;"><h6>HOME</h6></a>
+          </li>
+
+          <li class="nav-item" style="margin-right: 40px;">
+            <a class="nav-link js-scroll-trigger" href="file:///C:/Users/USER/Downloads/Hospital-Management-System-master/Hospital-Management-System-master/services.html" style="color: greenyellow;font-family: &#39;IBM Plex Sans&#39;, sans-serif;"><h6>ABOUT US</h6></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="file:///C:/Users/USER/Downloads/Hospital-Management-System-master/Hospital-Management-System-master/contact.html" style="color: greenyellow;font-family: &#39;IBM Plex Sans&#39;, sans-serif;"><h6>CONTACT</h6></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+    <div class="container contact-form" style="font-family: &#39;IBM Plex Sans&#39;, sans-serif;">
+            <div class="contact-image">
+                <img src="./Contact Us 1_files/rocket_contact.png" alt="rocket_contact">
+            </div>
+            <form method="post" action="file:///C:/Users/USER/Downloads/Hospital-Management-System-master/Hospital-Management-System-master/contact.php">
+                <h3>DROP US A MESSAGE</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="YOUR NAME *" value="" onkeydown="return alphaOnly(event);" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="txtEmail" class="form-control" placeholder="YOUR EMAIL *" value="" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="txtPhone" class="form-control" placeholder="YOUR PHONE NUMBER *" value="" minlength="10" maxlength="10" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="SUBMIT" name="btnSUBMIT" class="btnCONTACT" value="SEND MESSAGE">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="YOUR MESSAGE *" style="width: 100%; height: 130px;" required=""></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div>
+
+
+
+
+
+
+</body></html>
